@@ -1,0 +1,179 @@
+﻿<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>Atomic Muscle - Modders Resource</moduleName>
+	<moduleImage path="FOMOD\ScreenShot.JPG"/>
+	<moduleDependencies operator="Or">
+		<fileDependency file="Fallout4.esm" state="Active"/>
+		<fileDependency file="Fallout4.esm" state="Inactive"/>
+	</moduleDependencies>
+	<installSteps order="Explicit">
+		<installStep name="Support Files:">        <!--Support Files-->
+			<optionalFileGroups order="Explicit">
+				<group name="Modder Resource:" type="SelectAny">
+					<plugins order="Explicit">						
+						<plugin name="Base Body">
+							<description>
+[MODDERS RESOURCE] &#13;&#10;NOT NEEDED FOR PLAYiNG THE GAME !!! &#13;&#10;&#13;&#10;Select this if you are a modder and are looking forward to make refits for Atomic Muscle or for any other modding purposes.
+							</description>
+							<image path="FOMOD\Pics\10.JPG"/>
+							<conditionFlags>
+								<flag name="MRBB">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Base Outfits">
+							<description>
+[MODDERS RESOURCE] &#13;&#10;NOT NEEDED FOR PLAYiNG THE GAME !!! &#13;&#10;&#13;&#10;Will install bodyslide files for the base game outfits.
+							</description>
+							<image path="FOMOD\Pics\11.JPG"/>
+							<conditionFlags>
+								<flag name="MRBO">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Automatron Outfits">
+							<description>
+[MODDERS RESOURCE] &#13;&#10;NOT NEEDED FOR PLAYiNG THE GAME !!! &#13;&#10;&#13;&#10;Will install bodyslide files for the Automatron outfits.
+							</description>
+							<image path="FOMOD\Pics\12.JPG"/>
+							<conditionFlags>
+								<flag name="MRD1O">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="NotUsable"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="Or">
+												<fileDependency file="DLCRobot.esm" state="Active"/>
+												<fileDependency file="DLCRobot.esm" state="Inactive"/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Far Harbour Outfits">
+							<description>
+[MODDERS RESOURCE] &#13;&#10;NOT NEEDED FOR PLAYiNG THE GAME !!! &#13;&#10;&#13;&#10;Will install bodyslide files for the Far Harbour outfits.
+							</description>
+							<image path="FOMOD\Pics\13.JPG"/>
+							<conditionFlags>
+								<flag name="MRD3O">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="NotUsable"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="Or">
+												<fileDependency file="DLCCoast.esm" state="Active"/>
+												<fileDependency file="DLCCoast.esm" state="Inactive"/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Nuka World Outfits">
+							<description>
+[MODDERS RESOURCE] &#13;&#10;NOT NEEDED FOR PLAYiNG THE GAME !!! &#13;&#10;&#13;&#10;Will install bodyslide files for the Nuka World outfits.
+							</description>
+							<image path="FOMOD\Pics\14.JPG"/>
+							<conditionFlags>
+								<flag name="MRD6O">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="NotUsable"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="Or">
+												<fileDependency file="DLCNukaWorld.esm" state="Active"/>
+												<fileDependency file="DLCNukaWorld.esm" state="Inactive"/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Support Files:" type="SelectAny">
+					<plugins order="Explicit">						
+						<plugin name="Mod Organizer">
+							<description>
+Installs a Meta.iNi file for Mod Organizer to allow versioning support. &#13;&#10;If you do not use Mod Organizer, you do not need to install this file.
+							</description>
+							<image path="FOMOD\Pics\MO.JPG"/>
+							<conditionFlags>
+								<flag name="MO">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+	<conditionalFileInstalls>
+		<patterns>
+			<pattern> <!--10 Modder Res - Base Body, 1-->
+				<dependencies>
+					<flagDependency flag="MRBB" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="10 Modder Res - Base Body" destination="" priority="1"/>
+				</files>
+			</pattern>
+			<pattern> <!--11 Modder Res - Base Outfits, 2-->
+				<dependencies>
+					<flagDependency flag="MRBO" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="11 Modder Res - Base Outfits" destination="" priority="2"/>
+				</files>
+			</pattern>
+			<pattern> <!--12 Modder Res - Automatron Outfits, 3-->
+				<dependencies>
+					<flagDependency flag="MRD1O" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="12 Modder Res - Automatron Outfits" destination="" priority="3"/>
+				</files>
+			</pattern>
+			<pattern> <!--13 Modder Res - Far Harbour Outfits, 4-->
+				<dependencies>
+					<flagDependency flag="MRD3O" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="13 Modder Res - Far Harbour Outfits" destination="" priority="4"/>
+				</files>
+			</pattern>
+			<pattern> <!--14 Modder Res - Nuka World Outfits, 5-->
+				<dependencies>
+					<flagDependency flag="MRD6O" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="14 Modder Res - Nuka World Outfits" destination="" priority="5"/>
+				</files>
+			</pattern>
+			<pattern> <!--MO2, 6-->
+				<dependencies>
+					<flagDependency flag="MO" value="1"/>
+				</dependencies>
+				<files>
+					<file source="FOMOD\Meta.iNi" destination="meta.ini" priority="6"/>
+				</files>
+			</pattern>
+		</patterns>
+	</conditionalFileInstalls>
+</config>
