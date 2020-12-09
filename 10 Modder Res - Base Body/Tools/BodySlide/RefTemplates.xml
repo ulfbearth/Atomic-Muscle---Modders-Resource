@@ -9,6 +9,12 @@
     <Template sourcefile="SliderSets\Atomic Muscle - Hands.osp" set="Atomic Muscle - Hands" shape="BaseMaleHands3rd">Atomic Muscle - Hands</Template>
     <Template sourcefile="SliderSets\Atomic Muscle - Equipable Penis.osp" set="Atomic Muscle - Equipable Penis" shape="EQ_Penis">Atomic Muscle - Equipable Penis</Template>
     <Template sourcefile="SliderSets\Atomic Muscle - 1st Person Body.osp" set="Atomic Muscle - 1st Person Body" shape="MaleBody1stP">Atomic Muscle - 1st Person Body</Template>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Body" shape="CBBE">CBBE Body</Template>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Body Physics" shape="CBBE">CBBE Body Physics</Template>
+    <Template sourcefile="SliderSets\CBBE Reduced.osp" set="CBBE Body Reduced" shape="BaseFemaleBody:0">CBBE Body Reduced</Template>
+    <Template sourcefile="SliderSets\True Wasteland Body.osp" set="True Wasteland Body" shape="True Wasteland Body">True Wasteland Body</Template>
+    <Template sourcefile="SliderSets\Lazman Body.osp" set="Lazman Body" shape="HIGHHEEL">Lazman Body</Template>
+    <Template sourcefile="SliderSets\The Jiggle JIGGLE.osp" set="The Jiggle JIGGLE" shape="JIGGLE TITTYS AND ASS THIGHS">The Jiggle JIGGLE</Template>
     <Template sourcefile="ConversionSets\References.osp" set="VanillaToCBBE" shape="CBBE">Convert: Vanilla To CBBE</Template>
     <Template sourcefile="ConversionSets\References.osp" set="CBBEToVanilla" shape="CBBE">Convert: CBBE To Vanilla</Template>
     <Template sourcefile="ConversionSets\References.osp" set="SkyrimCBBEToFO4CBBE" shape="CBBE">Convert: Skyrim CBBE To FO4 CBBE</Template>

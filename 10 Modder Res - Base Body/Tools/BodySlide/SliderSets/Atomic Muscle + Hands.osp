@@ -3,9 +3,15 @@
     <SliderSet name="Atomic Muscle + Hands">
         <DataFolder>Atomic Muscle + Hands</DataFolder>
         <SourceFile>Atomic Muscle + Hands.nif</SourceFile>
-        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputPath>Meshes\Actors\Character\CharacterAssets</OutputPath>
         <OutputFile GenWeights="false">test</OutputFile>
-        <Shape target="MaleBody+Hands">MaleBody+Hands</Shape>
+        <Shape target="MaleBody+Hands" DataFolder="Atomic Muscle">MaleBody+Hands</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="MaleBody+HandsNuclear BodyBuilder" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="MaleBody+HandsNuka Bull" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsNuka Bull</Data>
+        </Slider>
         <Slider name="Shaft Width" invert="false" default="0">
             <Data name="MaleBody+HandsShaft Width" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsShaft Width</Data>
         </Slider>
@@ -23,12 +29,6 @@
         </Slider>
         <Slider name="Anus Spread" invert="false" default="0">
             <Data name="MaleBody+HandsAnus Spread" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsAnus Spread</Data>
-        </Slider>
-        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBody+HandsNuclear BodyBuilder" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsNuclear BodyBuilder</Data>
-        </Slider>
-        <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBody+HandsNuka Bull" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsNuka Bull</Data>
         </Slider>
         <Slider name="Penis Adjust" invert="false" default="0">
             <Data name="MaleBody+HandsPenis Adjust" target="MaleBody+Hands" local="true">Atomic Muscle + Hands.osd\MaleBody+HandsPenis Adjust</Data>
