@@ -6,23 +6,23 @@
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">test</OutputFile>
         <Shape target="MaleBodyFull" DataFolder="Atomic Muscle">MaleBodyFull</Shape>
-        <Slider name="Shaft Width" invert="false" default="0">
-            <Data name="MaleBodyFullShaft Width" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullShaft Width</Data>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="MaleBodyFullAnus Smooth" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="MaleBodyFullAnus Spread" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullAnus Spread</Data>
         </Slider>
         <Slider name="Erection" invert="false" default="0">
             <Data name="MaleBodyFullErection" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullErection</Data>
         </Slider>
-        <Slider name="Erection Up" invert="false" default="0">
-            <Data name="MaleBodyFullErection Up" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullErection Up</Data>
-        </Slider>
         <Slider name="Erection Down" invert="false" default="0">
             <Data name="MaleBodyFullErection Down" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullErection Down</Data>
         </Slider>
-        <Slider name="Sack Size" invert="false" default="0">
-            <Data name="MaleBodyFullSack Size" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullSack Size</Data>
+        <Slider name="Erection Up" invert="false" default="0">
+            <Data name="MaleBodyFullErection Up" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullErection Up</Data>
         </Slider>
-        <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyFullAnus Spread" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullAnus Spread</Data>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="MaleBodyFullForeskin" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullForeskin</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
             <Data name="MaleBodyFullNuclear BodyBuilder" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullNuclear BodyBuilder</Data>
@@ -33,11 +33,11 @@
         <Slider name="Penis Adjust" invert="false" default="0">
             <Data name="MaleBodyFullPenis Adjust" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullPenis Adjust</Data>
         </Slider>
-        <Slider name="Anus Smooth" invert="false" default="100" hidden="true">
-            <Data name="MaleBodyFullAnus Smooth" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullAnus Smooth</Data>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="MaleBodyFullSack Size" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullSack Size</Data>
         </Slider>
-        <Slider name="Foreskin" invert="false" default="0">
-            <Data name="MaleBodyFullForeskin" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullForeskin</Data>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="MaleBodyFullShaft Width" target="MaleBodyFull" local="true">Atomic Muscle Full Reference.osd\MaleBodyFullShaft Width</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
