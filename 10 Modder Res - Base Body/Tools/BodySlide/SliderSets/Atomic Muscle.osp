@@ -5,8 +5,8 @@
         <SourceFile>Atomic Muscle.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">malebody</OutputFile>
-        <Shape target="MaleBody" DataFolder="Atomic Muscle">MaleBody</Shape>
-        <Slider name="Anus Smooth" invert="false" default="100">
+        <Shape target="MaleBody">MaleBody</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="MaleBodyAnus Smooth" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyAnus Smooth</Data>
         </Slider>
         <Slider name="Anus Spread" invert="false" default="0">
