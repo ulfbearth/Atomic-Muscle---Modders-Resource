@@ -5,15 +5,15 @@
         <SourceFile>[AM DLC NW] Gage's Armor.nif</SourceFile>
         <OutputPath>Meshes\DLC04\Clothes\Gage</OutputPath>
         <OutputFile GenWeights="false">GageUnderArmor_M</OutputFile>
+        <Shape target="AMBodyNN" DataFolder="Atomic Muscle NeverNude">AMBodyNN</Shape>
         <Shape target="GageArmor_M:0">GageArmor_M:0</Shape>
         <Shape target="GageArmor_M:1">GageArmor_M:1</Shape>
         <Shape target="GageArmor_M:2">GageArmor_M:2</Shape>
         <Shape target="GageUnderArmor_M:0">GageUnderArmor_M:0</Shape>
         <Shape target="GageUnderArmor_M:1">GageUnderArmor_M:1</Shape>
         <Shape target="GageUnderArmor_M:3">GageUnderArmor_M:3</Shape>
-        <Shape target="MaleBodyNeverN" DataFolder="Atomic Muscle NeverNude">MaleBodyNeverN</Shape>
         <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyNeverNAnus Spread" target="MaleBodyNeverN" local="true">[AM DLC NW] Gage's Armor.osd\MaleBodyNeverNAnus Spread</Data>
+            <Data name="AMBodyNNAnus Spread" target="AMBodyNN" local="true">[AM DLC NW] Gage's Armor.osd\AMBodyNNAnus Spread</Data>
             <Data name="GageArmor_M:0Anus Spread" target="GageArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:0Anus Spread</Data>
             <Data name="GageArmor_M:1Anus Spread" target="GageArmor_M:1" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:1Anus Spread</Data>
             <Data name="GageUnderArmor_M:0Anus Spread" target="GageUnderArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageUnderArmor_M:0Anus Spread</Data>
@@ -22,7 +22,7 @@
             <Data name="GageArmor_M:2Anus Spread" target="GageArmor_M:2" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:2Anus Spread</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBodyNeverNNuclear BodyBuilder" target="MaleBodyNeverN" local="true">[AM DLC NW] Gage's Armor.osd\MaleBodyNeverNNuclear BodyBuilder</Data>
+            <Data name="AMBodyNNNuclear BodyBuilder" target="AMBodyNN" local="true">[AM DLC NW] Gage's Armor.osd\AMBodyNNNuclear BodyBuilder</Data>
             <Data name="GageArmor_M:0Nuclear BodyBuilder" target="GageArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:0Nuclear BodyBuilder</Data>
             <Data name="GageArmor_M:1Nuclear BodyBuilder" target="GageArmor_M:1" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:1Nuclear BodyBuilder</Data>
             <Data name="GageUnderArmor_M:0Nuclear BodyBuilder" target="GageUnderArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageUnderArmor_M:0Nuclear BodyBuilder</Data>
@@ -31,7 +31,7 @@
             <Data name="GageArmor_M:2Nuclear BodyBuilder" target="GageArmor_M:2" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:2Nuclear BodyBuilder</Data>
         </Slider>
         <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBodyNeverNNuka Bull" target="MaleBodyNeverN" local="true">[AM DLC NW] Gage's Armor.osd\MaleBodyNeverNNuka Bull</Data>
+            <Data name="AMBodyNNNuka Bull" target="AMBodyNN" local="true">[AM DLC NW] Gage's Armor.osd\AMBodyNNNuka Bull</Data>
             <Data name="GageArmor_M:0Nuka Bull" target="GageArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:0Nuka Bull</Data>
             <Data name="GageArmor_M:1Nuka Bull" target="GageArmor_M:1" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:1Nuka Bull</Data>
             <Data name="GageUnderArmor_M:0Nuka Bull" target="GageUnderArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageUnderArmor_M:0Nuka Bull</Data>
@@ -40,11 +40,14 @@
             <Data name="GageArmor_M:2Nuka Bull" target="GageArmor_M:2" local="true">[AM DLC NW] Gage's Armor.osd\GageArmor_M:2Nuka Bull</Data>
         </Slider>
         <Slider name="Bulge" invert="false" default="0">
-            <Data name="MaleBodyNeverNBulge" target="MaleBodyNeverN" local="true">[AM DLC NW] Gage's Armor.osd\MaleBodyNeverNBulge</Data>
+            <Data name="AMBodyNNBulge" target="AMBodyNN" local="true">[AM DLC NW] Gage's Armor.osd\AMBodyNNBulge</Data>
             <Data name="GageUnderArmor_M:0Bulge" target="GageUnderArmor_M:0" local="true">[AM DLC NW] Gage's Armor.osd\GageUnderArmor_M:0Bulge</Data>
         </Slider>
         <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
-            <Data name="MaleBodyNeverNbzap" target="MaleBodyNeverN" local="true">[AM DLC NW] Gage's Armor.osd\MaleBodyNeverNbzap</Data>
+            <Data name="AMBodyNNbzap" target="AMBodyNN" local="true">[AM DLC NW] Gage's Armor.osd\AMBodyNNbzap</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMBodyNNAnus Smooth" target="AMBodyNN" local="true">[AM DLC NW] Gage's Armor.osd\AMBodyNNAnus Smooth</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

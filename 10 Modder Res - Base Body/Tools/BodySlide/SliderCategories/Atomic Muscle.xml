@@ -12,6 +12,7 @@
 		<Slider name="Sack Size" displayname="Sack Size" />
 		<Slider name="Anus Spread" displayname="Anus Spread" />
 		<Slider name="Penis Adjust" displayname="Penis Adjust" />
+		<Slider name="Penis Length" displayname="Penis Length" />
 	</Category>
 	<Category name="Extras" defaultHidden="false">
 		<Slider name="Bulge" displayname="Bulge" />

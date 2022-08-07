@@ -5,26 +5,29 @@
         <SourceFile>[AM Vanilla] Tattered Rags.nif</SourceFile>
         <OutputPath>Meshes\Clothes\PrisonerRags</OutputPath>
         <OutputFile GenWeights="false">MOutfit</OutputFile>
-        <Shape target="MaleBodyNeverN" DataFolder="Atomic Muscle NeverNude">MaleBodyNeverN</Shape>
+        <Shape target="AMBodyNN" DataFolder="Atomic Muscle NeverNude">AMBodyNN</Shape>
         <Shape target="Rags:0">Rags:0</Shape>
         <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyNeverNAnus Spread" target="MaleBodyNeverN" local="true">[AM Vanilla] Tattered Rags.osd\MaleBodyNeverNAnus Spread</Data>
+            <Data name="AMBodyNNAnus Spread" target="AMBodyNN" local="true">[AM Vanilla] Tattered Rags.osd\AMBodyNNAnus Spread</Data>
             <Data name="Rags:0Anus Spread" target="Rags:0" local="true">[AM Vanilla] Tattered Rags.osd\Rags:0Anus Spread</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBodyNeverNNuclear BodyBuilder" target="MaleBodyNeverN" local="true">[AM Vanilla] Tattered Rags.osd\MaleBodyNeverNNuclear BodyBuilder</Data>
+            <Data name="AMBodyNNNuclear BodyBuilder" target="AMBodyNN" local="true">[AM Vanilla] Tattered Rags.osd\AMBodyNNNuclear BodyBuilder</Data>
             <Data name="Rags:0Nuclear BodyBuilder" target="Rags:0" local="true">[AM Vanilla] Tattered Rags.osd\Rags:0Nuclear BodyBuilder</Data>
         </Slider>
         <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBodyNeverNNuka Bull" target="MaleBodyNeverN" local="true">[AM Vanilla] Tattered Rags.osd\MaleBodyNeverNNuka Bull</Data>
+            <Data name="AMBodyNNNuka Bull" target="AMBodyNN" local="true">[AM Vanilla] Tattered Rags.osd\AMBodyNNNuka Bull</Data>
             <Data name="Rags:0Nuka Bull" target="Rags:0" local="true">[AM Vanilla] Tattered Rags.osd\Rags:0Nuka Bull</Data>
         </Slider>
         <Slider name="Bulge" invert="false" default="0">
-            <Data name="MaleBodyNeverNBulge" target="MaleBodyNeverN" local="true">[AM Vanilla] Tattered Rags.osd\MaleBodyNeverNBulge</Data>
+            <Data name="AMBodyNNBulge" target="AMBodyNN" local="true">[AM Vanilla] Tattered Rags.osd\AMBodyNNBulge</Data>
             <Data name="Rags:0Bulge" target="Rags:0" local="true">[AM Vanilla] Tattered Rags.osd\Rags:0Bulge</Data>
         </Slider>
         <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
-            <Data name="MaleBodyNeverNbzap" target="MaleBodyNeverN" local="true">[AM Vanilla] Tattered Rags.osd\MaleBodyNeverNbzap</Data>
+            <Data name="AMBodyNNbzap" target="AMBodyNN" local="true">[AM Vanilla] Tattered Rags.osd\AMBodyNNbzap</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMBodyNNAnus Smooth" target="AMBodyNN" local="true">[AM Vanilla] Tattered Rags.osd\AMBodyNNAnus Smooth</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

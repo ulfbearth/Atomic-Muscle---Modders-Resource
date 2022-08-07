@@ -5,29 +5,38 @@
         <SourceFile>[AM DLC NW] Wildman Rags.nif</SourceFile>
         <OutputPath>Meshes\DLC04\Clothes\Wildman</OutputPath>
         <OutputFile GenWeights="false">WildManOutfit_M</OutputFile>
-        <Shape target="MaleBody" DataFolder="Atomic Muscle (Uncut) + Hands">MaleBody</Shape>
+        <Shape target="BodyFlaccid" DataFolder="Atomic Muscle Flaccid">BodyFlaccid</Shape>
         <Shape target="WildManOutfit_M:0">WildManOutfit_M:0</Shape>
         <Slider name="Shaft Width" invert="false" default="0">
-            <Data name="MaleBodyShaft Width" target="MaleBody" local="true">[AM DLC NW] Wildman Rags.osd\MaleBodyShaft Width</Data>
+            <Data name="BodyFlaccidShaft Width" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidShaft Width</Data>
             <Data name="WildManOutfit_M:0Shaft Width" target="WildManOutfit_M:0" local="true">[AM DLC NW] Wildman Rags.osd\WildManOutfit_M:0Shaft Width</Data>
         </Slider>
         <Slider name="Sack Size" invert="false" default="0">
-            <Data name="MaleBodySack Size" target="MaleBody" local="true">[AM DLC NW] Wildman Rags.osd\MaleBodySack Size</Data>
+            <Data name="BodyFlaccidSack Size" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidSack Size</Data>
         </Slider>
         <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyAnus Spread" target="MaleBody" local="true">[AM DLC NW] Wildman Rags.osd\MaleBodyAnus Spread</Data>
+            <Data name="BodyFlaccidAnus Spread" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Spread</Data>
             <Data name="WildManOutfit_M:0Anus Spread" target="WildManOutfit_M:0" local="true">[AM DLC NW] Wildman Rags.osd\WildManOutfit_M:0Anus Spread</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBodyNuclear BodyBuilder" target="MaleBody" local="true">[AM DLC NW] Wildman Rags.osd\MaleBodyNuclear BodyBuilder</Data>
+            <Data name="BodyFlaccidNuclear BodyBuilder" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidNuclear BodyBuilder</Data>
             <Data name="WildManOutfit_M:0Nuclear BodyBuilder" target="WildManOutfit_M:0" local="true">[AM DLC NW] Wildman Rags.osd\WildManOutfit_M:0Nuclear BodyBuilder</Data>
         </Slider>
         <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBodyNuka Bull" target="MaleBody" local="true">[AM DLC NW] Wildman Rags.osd\MaleBodyNuka Bull</Data>
+            <Data name="BodyFlaccidNuka Bull" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidNuka Bull</Data>
             <Data name="WildManOutfit_M:0Nuka Bull" target="WildManOutfit_M:0" local="true">[AM DLC NW] Wildman Rags.osd\WildManOutfit_M:0Nuka Bull</Data>
         </Slider>
-        <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
-            <Data name="MaleBodybzap" target="MaleBody" local="true">[AM DLC NW] Wildman Rags.osd\MaleBodybzap</Data>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Smooth" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Smooth</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyFlaccidForeskin" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidForeskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyFlaccidPenis Length" target="BodyFlaccid">Atomic Muscle Flaccid.osd\BodyFlaccidPenis Length</Data>
+        </Slider>
+        <Slider name="New Zap" invert="false" default="100" hidden="true" zap="true">
+            <Data name="BodyFlaccidNew Zap" target="BodyFlaccid" local="true">[AM DLC NW] Wildman Rags.osd\BodyFlaccidNew Zap</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

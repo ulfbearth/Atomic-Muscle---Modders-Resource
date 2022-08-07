@@ -1,43 +1,343 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SliderSetInfo version="1">
-    <SliderSet name="Atomic Muscle">
-        <DataFolder>Atomic Muscle</DataFolder>
-        <SourceFile>Atomic Muscle.nif</SourceFile>
-        <OutputPath>meshes\actors\character\characterassets</OutputPath>
-        <OutputFile GenWeights="false">malebody</OutputFile>
-        <Shape target="MaleBody">MaleBody</Shape>
+    <SliderSet name="Atomic Muscle + Hands">
+        <DataFolder>Atomic Muscle + Hands</DataFolder>
+        <SourceFile>Atomic Muscle + Hands.nif</SourceFile>
+        <OutputPath>Meshes\Actors\Character\CharacterAssets</OutputPath>
+        <OutputFile GenWeights="false">test</OutputFile>
+        <Shape target="BodyFlaccid+Hands" DataFolder="Atomic Muscle Flaccid">BodyFlaccid+Hands</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
-            <Data name="MaleBodyAnus Smooth" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyAnus Smooth</Data>
+            <Data name="BodyFlaccid+HandsAnus Smooth" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsAnus Smooth</Data>
         </Slider>
         <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyAnus Spread" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyAnus Spread</Data>
-        </Slider>
-        <Slider name="Erection" invert="false" default="0">
-            <Data name="MaleBodyErection" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyErection</Data>
-        </Slider>
-        <Slider name="Erection Down" invert="false" default="0">
-            <Data name="MaleBodyErection Down" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyErection Down</Data>
-        </Slider>
-        <Slider name="Erection Up" invert="false" default="0">
-            <Data name="MaleBodyErection Up" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyErection Up</Data>
+            <Data name="BodyFlaccid+HandsAnus Spread" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsAnus Spread</Data>
         </Slider>
         <Slider name="Foreskin" invert="false" default="0">
-            <Data name="MaleBodyForeskin" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyForeskin</Data>
+            <Data name="BodyFlaccid+HandsForeskin" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsForeskin</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBodyNuclear BodyBuilder" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyNuclear BodyBuilder</Data>
+            <Data name="BodyFlaccid+HandsNuclear BodyBuilder" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsNuclear BodyBuilder</Data>
         </Slider>
         <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBodyNuka Bull" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyNuka Bull</Data>
+            <Data name="BodyFlaccid+HandsNuka Bull" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsNuka Bull</Data>
         </Slider>
-        <Slider name="Penis Adjust" invert="false" default="0">
-            <Data name="MaleBodyPenis Adjust" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyPenis Adjust</Data>
-        </Slider>
-        <Slider name="Sack Size" invert="false" default="0">
-            <Data name="MaleBodySack Size" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodySack Size</Data>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyFlaccid+HandsPenis Length" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsPenis Length</Data>
         </Slider>
         <Slider name="Shaft Width" invert="false" default="0">
-            <Data name="MaleBodyShaft Width" target="MaleBody" local="true">Atomic Muscle.osd\MaleBodyShaft Width</Data>
+            <Data name="BodyFlaccid+HandsShaft Width" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsShaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyFlaccid+HandsSack Size" target="BodyFlaccid+Hands" local="true">Atomic Muscle + Hands.osd\BodyFlaccid+HandsSack Size</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle - 1st Person Body">
+        <DataFolder>Atomic Muscle - 1st Person Body</DataFolder>
+        <SourceFile>Atomic Muscle - 1st Person Body.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">1stPersonMaleBody</OutputFile>
+        <Shape target="MBody1stP" DataFolder="Atomic Muscle - 1st Person Body">MBody1stP</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="MBody1stPNuclear BodyBuilder" target="MBody1stP" local="true">Atomic Muscle - 1st Person Body.osd\MBody1stPNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="MBody1stPNuka Bull" target="MBody1stP" local="true">Atomic Muscle - 1st Person Body.osd\MBody1stPNuka Bull</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle - Hands">
+        <DataFolder>Atomic Muscle - Hands</DataFolder>
+        <SourceFile>Atomic Muscle - Hands.nif</SourceFile>
+        <OutputPath>Meshes\Actors\Character\CharacterAssets</OutputPath>
+        <OutputFile GenWeights="false">MaleHands</OutputFile>
+        <Shape target="BaseMaleHands3rd" DataFolder="Atomic Muscle - Hands">BaseMaleHands3rd</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BaseMaleHands3rdNuclear BodyBuilder" target="BaseMaleHands3rd" local="true">Atomic Muscle - Hands.osd\BaseMaleHands3rdNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BaseMaleHands3rdNuka Bull" target="BaseMaleHands3rd" local="true">Atomic Muscle - Hands.osd\BaseMaleHands3rdNuka Bull</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Down">
+        <DataFolder>Atomic Muscle Down</DataFolder>
+        <SourceFile>Atomic Muscle Down.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyDown</OutputFile>
+        <Shape target="BodyDown" DataFolder="Atomic Muscle Down">BodyDown</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyDownAnus Smooth" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyDownAnus Spread" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownAnus Spread</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyDownNuclear BodyBuilder" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyDownNuka Bull" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownNuka Bull</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyDownSack Size" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownSack Size</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyDownShaft Width" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownShaft Width</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyDownPenis Length" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownPenis Length</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyDownForeskin" target="BodyDown" local="true">Atomic Muscle Down.osd\BodyDownForeskin</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Down 50">
+        <DataFolder>Atomic Muscle Down 50</DataFolder>
+        <SourceFile>Atomic Muscle Down 50.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyDown50</OutputFile>
+        <Shape target="BodyDown50" DataFolder="Atomic Muscle Down 50">BodyDown50</Shape>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyDown50Nuka Bull" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Nuka Bull</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyDown50Nuclear BodyBuilder" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Nuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyDown50Anus Smooth" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Anus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyDown50Anus Spread" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Anus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyDown50Foreskin" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Foreskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyDown50Penis Length" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Penis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyDown50Shaft Width" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Shaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyDown50Sack Size" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Sack Size</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Erect">
+        <DataFolder>Atomic Muscle Erect</DataFolder>
+        <SourceFile>Atomic Muscle Erect.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyErect</OutputFile>
+        <Shape target="BodyErect" DataFolder="Atomic Muscle Erect">BodyErect</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyErectAnus Smooth" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyErectAnus Spread" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectAnus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyErectForeskin" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectForeskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyErectNuclear BodyBuilder" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyErectNuka Bull" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectNuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyErectPenis Length" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectPenis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyErectShaft Width" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectShaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyErectSack Size" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectSack Size</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Flaccid">
+        <DataFolder>Atomic Muscle Flaccid</DataFolder>
+        <SourceFile>Atomic Muscle Flaccid.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyFlaccid</OutputFile>
+        <Shape target="BodyFlaccid" DataFolder="Atomic Muscle Flaccid">BodyFlaccid</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Smooth" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Spread" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyFlaccidForeskin" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidForeskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyFlaccidNuclear BodyBuilder" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyFlaccidNuka Bull" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidNuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyFlaccidPenis Length" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidPenis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyFlaccidShaft Width" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidShaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyFlaccidSack Size" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidSack Size</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Full Reference">
+        <DataFolder>Atomic Muscle Full Reference</DataFolder>
+        <SourceFile>Atomic Muscle Full Reference.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">test</OutputFile>
+        <Shape target="AMFullReference" DataFolder="Atomic Muscle Flaccid">AMFullReference</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMFullReferenceAnus Smooth" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMFullReferenceAnus Spread" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceAnus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="AMFullReferenceForeskin" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceForeskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMFullReferenceNuclear BodyBuilder" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMFullReferenceNuka Bull" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceNuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="AMFullReferencePenis Length" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferencePenis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="AMFullReferenceShaft Width" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceShaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="AMFullReferenceSack Size" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceSack Size</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle NeverNude">
+        <DataFolder>Atomic Muscle NeverNude</DataFolder>
+        <SourceFile>Atomic Muscle NeverNude.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MalebodyNN</OutputFile>
+        <Shape target="AMBodyNN">AMBodyNN</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMBodyNNAnus Smooth" target="AMBodyNN" local="true">Atomic Muscle NeverNude.osd\AMBodyNNAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMBodyNNAnus Spread" target="AMBodyNN" local="true">Atomic Muscle NeverNude.osd\AMBodyNNAnus Spread</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMBodyNNNuclear BodyBuilder" target="AMBodyNN" local="true">Atomic Muscle NeverNude.osd\AMBodyNNNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMBodyNNNuka Bull" target="AMBodyNN" local="true">Atomic Muscle NeverNude.osd\AMBodyNNNuka Bull</Data>
+        </Slider>
+        <Slider name="Bulge" invert="false" default="0">
+            <Data name="AMBodyNNBulge" target="AMBodyNN" local="true">Atomic Muscle NeverNude.osd\AMBodyNNBulge</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle NeverNude + Hands">
+        <DataFolder>Atomic Muscle NeverNude + Hands</DataFolder>
+        <SourceFile>Atomic Muscle NeverNude + Hands.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MalebodyNN</OutputFile>
+        <Shape target="AMBodyNN+Hands" DataFolder="Atomic Muscle NeverNude">AMBodyNN+Hands</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMBodyNN+HandsNuclear BodyBuilder" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMBodyNN+HandsNuka Bull" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsNuka Bull</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMBodyNN+HandsAnus Smooth" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMBodyNN+HandsAnus Spread" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsAnus Spread</Data>
+        </Slider>
+        <Slider name="Bulge" invert="false" default="0">
+            <Data name="AMBodyNN+HandsBulge" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsBulge</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle NeverNude Full Reference">
+        <DataFolder>Atomic Muscle NeverNude Full Reference</DataFolder>
+        <SourceFile>Atomic Muscle NeverNude Full Reference.nif</SourceFile>
+        <OutputPath>meshes\armor\New Outfit</OutputPath>
+        <OutputFile GenWeights="false">New Outfit</OutputFile>
+        <Shape target="AMFullReferenceNN" DataFolder="Atomic Muscle NeverNude">AMFullReferenceNN</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMFullReferenceNNNuclear BodyBuilder" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMFullReferenceNNNuka Bull" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNNuka Bull</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMFullReferenceNNAnus Smooth" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMFullReferenceNNAnus Spread" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNAnus Spread</Data>
+        </Slider>
+        <Slider name="Bulge" invert="false" default="0">
+            <Data name="AMFullReferenceNNBulge" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNBulge</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Up">
+        <DataFolder>Atomic Muscle Up</DataFolder>
+        <SourceFile>Atomic Muscle Up.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyUp</OutputFile>
+        <Shape target="BodyUp" DataFolder="Atomic Muscle Up">BodyUp</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyUpAnus Smooth" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyUpAnus Spread" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpAnus Spread</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyUpNuclear BodyBuilder" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyUpNuka Bull" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpNuka Bull</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyUpSack Size" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpSack Size</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyUpForeskin" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpForeskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyUpPenis Length" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpPenis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyUpShaft Width" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpShaft Width</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Atomic Muscle Up 50">
+        <DataFolder>Atomic Muscle Up 50</DataFolder>
+        <SourceFile>Atomic Muscle Up 50.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyUp50</OutputFile>
+        <Shape target="BodyUp50" DataFolder="Atomic Muscle Up 50">BodyUp50</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyUp50Anus Smooth" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Anus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyUp50Anus Spread" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Anus Spread</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyUp50Nuclear BodyBuilder" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Nuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyUp50Nuka Bull" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Nuka Bull</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyUp50Foreskin" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Foreskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyUp50Penis Length" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Penis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyUp50Shaft Width" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Shaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyUp50Sack Size" target="BodyUp50" local="true">Atomic Muscle Up 50.osd\BodyUp50Sack Size</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

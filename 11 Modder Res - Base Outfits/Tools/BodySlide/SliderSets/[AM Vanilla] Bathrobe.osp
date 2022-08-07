@@ -5,31 +5,40 @@
         <SourceFile>[AM Vanilla] Bathrobe.nif</SourceFile>
         <OutputPath>Meshes\Clothes\Bathrobe</OutputPath>
         <OutputFile GenWeights="false">OutfitM</OutputFile>
-        <Shape target="MaleBody" DataFolder="[AM Vanilla] Bathrobe">MaleBody</Shape>
+        <Shape target="BodyFlaccid" DataFolder="Atomic Muscle Flaccid">BodyFlaccid</Shape>
         <Shape target="OutfitM:0">OutfitM:0</Shape>
         <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyAnus Spread" target="MaleBody" local="true">[AM Vanilla] Bathrobe.osd\MaleBodyAnus Spread</Data>
+            <Data name="BodyFlaccidAnus Spread" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidAnus Spread</Data>
             <Data name="OutfitM:0Anus Spread" target="OutfitM:0" local="true">[AM Vanilla] Bathrobe.osd\OutfitM:0Anus Spread</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBodyNuclear BodyBuilder" target="MaleBody" local="true">[AM Vanilla] Bathrobe.osd\MaleBodyNuclear BodyBuilder</Data>
+            <Data name="BodyFlaccidNuclear BodyBuilder" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidNuclear BodyBuilder</Data>
             <Data name="OutfitM:0Nuclear BodyBuilder" target="OutfitM:0" local="true">[AM Vanilla] Bathrobe.osd\OutfitM:0Nuclear BodyBuilder</Data>
         </Slider>
         <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBodyNuka Bull" target="MaleBody" local="true">[AM Vanilla] Bathrobe.osd\MaleBodyNuka Bull</Data>
+            <Data name="BodyFlaccidNuka Bull" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidNuka Bull</Data>
             <Data name="OutfitM:0Nuka Bull" target="OutfitM:0" local="true">[AM Vanilla] Bathrobe.osd\OutfitM:0Nuka Bull</Data>
         </Slider>
         <Slider name="Bulge" invert="false" default="0">
             <Data name="OutfitM:0Bulge" target="OutfitM:0" local="true">[AM Vanilla] Bathrobe.osd\OutfitM:0Bulge</Data>
         </Slider>
         <Slider name="Shaft Width" invert="false" default="0">
-            <Data name="MaleBodyShaft Width" target="MaleBody" local="true">[AM Vanilla] Bathrobe.osd\MaleBodyShaft Width</Data>
+            <Data name="BodyFlaccidShaft Width" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidShaft Width</Data>
         </Slider>
         <Slider name="Sack Size" invert="false" default="0">
-            <Data name="MaleBodySack Size" target="MaleBody" local="true">[AM Vanilla] Bathrobe.osd\MaleBodySack Size</Data>
+            <Data name="BodyFlaccidSack Size" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidSack Size</Data>
         </Slider>
         <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
-            <Data name="MaleBodybzap" target="MaleBody" local="true">[AM Vanilla] Bathrobe.osd\MaleBodybzap</Data>
+            <Data name="BodyFlaccidbzap" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidbzap</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Smooth" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidAnus Smooth</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyFlaccidForeskin" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidForeskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyFlaccidPenis Length" target="BodyFlaccid" local="true">[AM Vanilla] Bathrobe.osd\BodyFlaccidPenis Length</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

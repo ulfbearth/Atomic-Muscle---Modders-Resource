@@ -5,33 +5,42 @@
         <SourceFile>[AM Vanilla] Grognak Costume.nif</SourceFile>
         <OutputPath>Meshes\Clothes\Grognak</OutputPath>
         <OutputFile GenWeights="false">MOutfit</OutputFile>
+        <Shape target="BodyFlaccid" DataFolder="Atomic Muscle Flaccid">BodyFlaccid</Shape>
         <Shape target="MOutfit:0">MOutfit:0</Shape>
         <Shape target="MOutfit:1">MOutfit:1</Shape>
-        <Shape target="MaleBody" DataFolder="Atomic Muscle Test III">MaleBody</Shape>
         <Slider name="Shaft Width" invert="false" default="0">
-            <Data name="MaleBodyShaft Width" target="MaleBody" local="true">[AM Vanilla] Grognak Costume.osd\MaleBodyShaft Width</Data>
+            <Data name="BodyFlaccidShaft Width" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidShaft Width</Data>
             <Data name="MOutfit:0Shaft Width" target="MOutfit:0" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:0Shaft Width</Data>
         </Slider>
         <Slider name="Sack Size" invert="false" default="0">
-            <Data name="MaleBodySack Size" target="MaleBody" local="true">[AM Vanilla] Grognak Costume.osd\MaleBodySack Size</Data>
+            <Data name="BodyFlaccidSack Size" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidSack Size</Data>
         </Slider>
         <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="MaleBodyAnus Spread" target="MaleBody" local="true">[AM Vanilla] Grognak Costume.osd\MaleBodyAnus Spread</Data>
+            <Data name="BodyFlaccidAnus Spread" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidAnus Spread</Data>
             <Data name="MOutfit:0Anus Spread" target="MOutfit:0" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:0Anus Spread</Data>
             <Data name="MOutfit:1Anus Spread" target="MOutfit:1" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:1Anus Spread</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
-            <Data name="MaleBodyNuclear BodyBuilder" target="MaleBody" local="true">[AM Vanilla] Grognak Costume.osd\MaleBodyNuclear BodyBuilder</Data>
+            <Data name="BodyFlaccidNuclear BodyBuilder" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidNuclear BodyBuilder</Data>
             <Data name="MOutfit:0Nuclear BodyBuilder" target="MOutfit:0" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:0Nuclear BodyBuilder</Data>
             <Data name="MOutfit:1Nuclear BodyBuilder" target="MOutfit:1" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:1Nuclear BodyBuilder</Data>
         </Slider>
         <Slider name="Nuka Bull" invert="false" default="0">
-            <Data name="MaleBodyNuka Bull" target="MaleBody" local="true">[AM Vanilla] Grognak Costume.osd\MaleBodyNuka Bull</Data>
+            <Data name="BodyFlaccidNuka Bull" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidNuka Bull</Data>
             <Data name="MOutfit:0Nuka Bull" target="MOutfit:0" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:0Nuka Bull</Data>
             <Data name="MOutfit:1Nuka Bull" target="MOutfit:1" local="true">[AM Vanilla] Grognak Costume.osd\MOutfit:1Nuka Bull</Data>
         </Slider>
         <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
-            <Data name="MaleBodybzap" target="MaleBody" local="true">[AM Vanilla] Grognak Costume.osd\MaleBodybzap</Data>
+            <Data name="BodyFlaccidbzap" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidbzap</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Smooth" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidAnus Smooth</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyFlaccidForeskin" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidForeskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyFlaccidPenis Length" target="BodyFlaccid" local="true">[AM Vanilla] Grognak Costume.osd\BodyFlaccidPenis Length</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
