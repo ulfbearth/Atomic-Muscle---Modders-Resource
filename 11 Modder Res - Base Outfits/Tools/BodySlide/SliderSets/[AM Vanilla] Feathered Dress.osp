@@ -32,7 +32,7 @@
             <Data name="WaistCapM:0Bulge" target="WaistCapM:0" local="true">[AM Vanilla] Feathered Dress.osd\WaistCapM:0Bulge</Data>
             <Data name="MOutfit:0Bulge" target="MOutfit:0" local="true">[AM Vanilla] Feathered Dress.osd\MOutfit:0Bulge</Data>
         </Slider>
-        <Slider name="bzap" invert="false" default="100" hidden="true">
+        <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
             <Data name="AMBodyNNbzap" target="AMBodyNN" local="true">[AM Vanilla] Feathered Dress.osd\AMBodyNNbzap</Data>
         </Slider>
         <Slider name="Anus Smooth" invert="false" default="0">

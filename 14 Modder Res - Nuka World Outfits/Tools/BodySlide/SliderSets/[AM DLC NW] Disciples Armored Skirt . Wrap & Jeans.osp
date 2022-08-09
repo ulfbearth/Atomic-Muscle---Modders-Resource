@@ -31,7 +31,7 @@
             <Data name="AMBodyNNBulge" target="AMBodyNN" local="true">[AM DLC NW] Disciples Armored Skirt . Wrap &amp; Jeans.osd\AMBodyNNBulge</Data>
             <Data name="PantsB:0Bulge" target="PantsB:0" local="true">[AM DLC NW] Disciples Armored Skirt . Wrap &amp; Jeans.osd\PantsB:0Bulge</Data>
         </Slider>
-        <Slider name="bzap" invert="false" default="100" hidden="true">
+        <Slider name="bzap" invert="false" default="100" hidden="true" zap="true">
             <Data name="AMBodyNNbzap" target="AMBodyNN" local="true">[AM DLC NW] Disciples Armored Skirt . Wrap &amp; Jeans.osd\AMBodyNNbzap</Data>
         </Slider>
         <Slider name="Anus Smooth" invert="false" default="0">
