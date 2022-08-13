@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle NeverNude + Hands">
+        <DataFolder>Atomic Muscle NeverNude + Hands</DataFolder>
+        <SourceFile>Atomic Muscle NeverNude + Hands.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MalebodyNN</OutputFile>
+        <Shape target="AMBodyNN+Hands" DataFolder="Atomic Muscle NeverNude">AMBodyNN+Hands</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMBodyNN+HandsNuclear BodyBuilder" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMBodyNN+HandsNuka Bull" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsNuka Bull</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMBodyNN+HandsAnus Smooth" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMBodyNN+HandsAnus Spread" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsAnus Spread</Data>
+        </Slider>
+        <Slider name="Bulge" invert="false" default="0">
+            <Data name="AMBodyNN+HandsBulge" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsBulge</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

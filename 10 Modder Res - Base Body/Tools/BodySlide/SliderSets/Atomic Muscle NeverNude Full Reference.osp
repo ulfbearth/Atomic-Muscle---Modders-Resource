@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle NeverNude Full Reference">
+        <DataFolder>Atomic Muscle NeverNude Full Reference</DataFolder>
+        <SourceFile>Atomic Muscle NeverNude Full Reference.nif</SourceFile>
+        <OutputPath>meshes\armor\New Outfit</OutputPath>
+        <OutputFile GenWeights="false">New Outfit</OutputFile>
+        <Shape target="AMFullReferenceNN" DataFolder="Atomic Muscle NeverNude">AMFullReferenceNN</Shape>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMFullReferenceNNNuclear BodyBuilder" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMFullReferenceNNNuka Bull" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNNuka Bull</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMFullReferenceNNAnus Smooth" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMFullReferenceNNAnus Spread" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNAnus Spread</Data>
+        </Slider>
+        <Slider name="Bulge" invert="false" default="0">
+            <Data name="AMFullReferenceNNBulge" target="AMFullReferenceNN" local="true">Atomic Muscle NeverNude Full Reference.osd\AMFullReferenceNNBulge</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

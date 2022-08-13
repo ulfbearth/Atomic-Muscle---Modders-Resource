@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle Down 50">
+        <DataFolder>Atomic Muscle Down 50</DataFolder>
+        <SourceFile>Atomic Muscle Down 50.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyDown50</OutputFile>
+        <Shape target="BodyDown50" DataFolder="Atomic Muscle Down 50">BodyDown50</Shape>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyDown50Nuka Bull" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Nuka Bull</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyDown50Nuclear BodyBuilder" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Nuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyDown50Anus Smooth" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Anus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyDown50Anus Spread" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Anus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyDown50Foreskin" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Foreskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyDown50Penis Length" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Penis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyDown50Shaft Width" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Shaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyDown50Sack Size" target="BodyDown50" local="true">Atomic Muscle Down 50.osd\BodyDown50Sack Size</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle Full Reference">
+        <DataFolder>Atomic Muscle Full Reference</DataFolder>
+        <SourceFile>Atomic Muscle Full Reference.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">test</OutputFile>
+        <Shape target="AMFullReference" DataFolder="Atomic Muscle Flaccid">AMFullReference</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="AMFullReferenceAnus Smooth" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="AMFullReferenceAnus Spread" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceAnus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="AMFullReferenceForeskin" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceForeskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="AMFullReferenceNuclear BodyBuilder" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="AMFullReferenceNuka Bull" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceNuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="AMFullReferencePenis Length" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferencePenis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="AMFullReferenceShaft Width" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceShaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="AMFullReferenceSack Size" target="AMFullReference" local="true">Atomic Muscle Full Reference.osd\AMFullReferenceSack Size</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

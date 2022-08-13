@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle Flaccid">
+        <DataFolder>Atomic Muscle Flaccid</DataFolder>
+        <SourceFile>Atomic Muscle Flaccid.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyFlaccid</OutputFile>
+        <Shape target="BodyFlaccid" DataFolder="Atomic Muscle Flaccid">BodyFlaccid</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Smooth" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyFlaccidAnus Spread" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyFlaccidForeskin" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidForeskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyFlaccidNuclear BodyBuilder" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyFlaccidNuka Bull" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidNuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyFlaccidPenis Length" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidPenis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyFlaccidShaft Width" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidShaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyFlaccidSack Size" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidSack Size</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
