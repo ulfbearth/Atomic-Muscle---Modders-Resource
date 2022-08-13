@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle Down 12">
+        <DataFolder>Atomic Muscle Down 12</DataFolder>
+        <SourceFile>Atomic Muscle Down 12.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyDown12</OutputFile>
+        <Shape target="BodyDown12" DataFolder="Atomic Muscle Down">BodyDown12</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyDown12Anus Smooth" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Anus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyDown12Anus Spread" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Anus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyDown12Foreskin" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Foreskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyDown12Nuclear BodyBuilder" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Nuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyDown12Nuka Bull" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Nuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyDown12Penis Length" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Penis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyDown12Shaft Width" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Shaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyDown12Sack Size" target="BodyDown12" local="true">Atomic Muscle Down 12.osd\BodyDown12Sack Size</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

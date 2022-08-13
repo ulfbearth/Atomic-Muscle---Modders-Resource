@@ -31,4 +31,35 @@
             <Data name="BodyUpShaft Width" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpShaft Width</Data>
         </Slider>
     </SliderSet>
+    <SliderSet name="Atomic Muscle Up 12">
+        <DataFolder>Atomic Muscle Up</DataFolder>
+        <SourceFile>Atomic Muscle Up.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyUp12</OutputFile>
+        <Shape target="BodyUp12" DataFolder="Atomic Muscle Up">BodyUp12</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyUp12Anus Smooth" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Anus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyUp12Anus Spread" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Anus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyUp12Foreskin" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Foreskin</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyUp12Nuclear BodyBuilder" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Nuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyUp12Nuka Bull" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Nuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyUp12Penis Length" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Penis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyUp12Shaft Width" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Shaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyUp12Sack Size" target="BodyUp12" local="true">Atomic Muscle Up.osd\BodyUp12Sack Size</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>

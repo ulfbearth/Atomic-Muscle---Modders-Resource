@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle Up 75">
+        <DataFolder>Atomic Muscle Up 75</DataFolder>
+        <SourceFile>Atomic Muscle Up 75.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyUp75</OutputFile>
+        <Shape target="BodyUp75" DataFolder="Atomic Muscle Up">BodyUp75</Shape>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyUp75Nuka Bull" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Nuka Bull</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyUp75Nuclear BodyBuilder" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Nuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyUp75Anus Smooth" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Anus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyUp75Anus Spread" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Anus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyUp75Foreskin" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Foreskin</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyUp75Penis Length" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Penis Length</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyUp75Shaft Width" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Shaft Width</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyUp75Sack Size" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Sack Size</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
