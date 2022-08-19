@@ -5,7 +5,7 @@
         <SourceFile>Atomic Muscle Up 75.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyUp75</OutputFile>
-        <Shape target="BodyUp75" DataFolder="Atomic Muscle Up">BodyUp75</Shape>
+        <Shape target="BodyUp75" DataFolder="Atomic Muscle Up 75">BodyUp75</Shape>
         <Slider name="Nuka Bull" invert="false" default="0">
             <Data name="BodyUp75Nuka Bull" target="BodyUp75" local="true">Atomic Muscle Up 75.osd\BodyUp75Nuka Bull</Data>
         </Slider>

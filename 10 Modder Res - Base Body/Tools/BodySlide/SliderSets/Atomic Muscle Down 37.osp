@@ -5,7 +5,7 @@
         <SourceFile>Atomic Muscle Down 37.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyDown37</OutputFile>
-        <Shape target="BodyDown37" DataFolder="Atomic Muscle Down">BodyDown37</Shape>
+        <Shape target="BodyDown37" DataFolder="Atomic Muscle Down 37">BodyDown37</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="BodyDown37Anus Smooth" target="BodyDown37" local="true">Atomic Muscle Down 37.osd\BodyDown37Anus Smooth</Data>
         </Slider>
