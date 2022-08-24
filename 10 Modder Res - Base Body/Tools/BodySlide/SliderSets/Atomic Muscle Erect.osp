@@ -5,7 +5,7 @@
         <SourceFile>Atomic Muscle Erect.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyErect</OutputFile>
-        <Shape target="BodyErect" DataFolder="Atomic Muscle Erect">BodyErect</Shape>
+        <Shape target="BodyErect">BodyErect</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="BodyErectAnus Smooth" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectAnus Smooth</Data>
         </Slider>
