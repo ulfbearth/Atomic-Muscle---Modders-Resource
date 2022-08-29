@@ -1,5 +1,6 @@
 <!-- Reference templates are shortcuts to loading a slider set as a reference in Outfit Studio -->
 <RefTemplates>
+	<Template sourcefile="SliderSets\Atomic Muscle Base.osp" set="Atomic Muscle Base" shape="BodyBase">Atomic Muscle Base</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle NeverNude.osp" set="Atomic Muscle NeverNude" shape="AMBodyNN">Atomic Muscle NeverNude</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle Flaccid.osp" set="Atomic Muscle Flaccid" shape="BodyFlaccid">Atomic Muscle Flaccid</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle Erect.osp" set="Atomic Muscle Erect" shape="BodyErect">Atomic Muscle Erect</Template>

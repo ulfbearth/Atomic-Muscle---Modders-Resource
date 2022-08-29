@@ -12,9 +12,6 @@
         <Slider name="Anus Spread" invert="false" default="0">
             <Data name="BodyErectAnus Spread" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectAnus Spread</Data>
         </Slider>
-        <Slider name="Foreskin" invert="false" default="0">
-            <Data name="BodyErectForeskin" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectForeskin</Data>
-        </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
             <Data name="BodyErectNuclear BodyBuilder" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectNuclear BodyBuilder</Data>
         </Slider>

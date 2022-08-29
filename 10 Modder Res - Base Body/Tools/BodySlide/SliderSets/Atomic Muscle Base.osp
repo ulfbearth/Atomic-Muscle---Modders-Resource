@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Atomic Muscle Base">
+        <DataFolder>Atomic Muscle Base</DataFolder>
+        <SourceFile>Atomic Muscle Base.nif</SourceFile>
+        <OutputPath>meshes\actors\character\characterassets</OutputPath>
+        <OutputFile GenWeights="false">MaleBodyBase</OutputFile>
+        <Shape target="BodyBase" DataFolder="Atomic Muscle Erect">BodyBase</Shape>
+        <Slider name="Anus Smooth" invert="false" default="0">
+            <Data name="BodyBaseAnus Smooth" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseAnus Smooth</Data>
+        </Slider>
+        <Slider name="Anus Spread" invert="false" default="0">
+            <Data name="BodyBaseAnus Spread" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseAnus Spread</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyBaseForeskin" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseForeskin</Data>
+        </Slider>
+        <Slider name="Foreskin Flaccid" invert="false" default="0">
+            <Data name="BodyBaseForeskin Flaccid" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseForeskin Flaccid</Data>
+        </Slider>
+        <Slider name="Nuclear BodyBuilder" invert="false" default="0">
+            <Data name="BodyBaseNuclear BodyBuilder" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseNuclear BodyBuilder</Data>
+        </Slider>
+        <Slider name="Nuka Bull" invert="false" default="0">
+            <Data name="BodyBaseNuka Bull" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseNuka Bull</Data>
+        </Slider>
+        <Slider name="Penis Length" invert="false" default="0">
+            <Data name="BodyBasePenis Length" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBasePenis Length</Data>
+        </Slider>
+        <Slider name="Penis Length Flaccid" invert="false" default="0">
+            <Data name="BodyBasePenis Length Flaccid" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBasePenis Length Flaccid</Data>
+        </Slider>
+        <Slider name="Sack Size" invert="false" default="0">
+            <Data name="BodyBaseSack Size" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseSack Size</Data>
+        </Slider>
+        <Slider name="Sack Size Flaccid" invert="false" default="0">
+            <Data name="BodyBaseSack Size Flaccid" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseSack Size Flaccid</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyBaseShaft Width" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseShaft Width</Data>
+        </Slider>
+        <Slider name="Shaft Width Flaccid" invert="false" default="0">
+            <Data name="BodyBaseShaft Width Flaccid" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseShaft Width Flaccid</Data>
+        </Slider>
+        <Slider name="Flaccid" invert="false" default="0">
+            <Data name="BodyBaseFlaccid" target="BodyBase" local="true">Atomic Muscle Base.osd\BodyBaseFlaccid</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
