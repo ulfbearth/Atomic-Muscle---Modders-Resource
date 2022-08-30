@@ -5,15 +5,12 @@
         <SourceFile>Atomic Muscle Down 37.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyDown37</OutputFile>
-        <Shape target="BodyDown37">BodyDown37</Shape>
+        <Shape target="BodyDown37" DataFolder="Atomic Muscle Down 37">BodyDown37</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="BodyDown37Anus Smooth" target="BodyDown37" local="true">Atomic Muscle Down 37.osd\BodyDown37Anus Smooth</Data>
         </Slider>
         <Slider name="Anus Spread" invert="false" default="0">
             <Data name="BodyDown37Anus Spread" target="BodyDown37" local="true">Atomic Muscle Down 37.osd\BodyDown37Anus Spread</Data>
-        </Slider>
-        <Slider name="Foreskin" invert="false" default="0">
-            <Data name="BodyDown37Foreskin" target="BodyDown37" local="true">Atomic Muscle Down 37.osd\BodyDown37Foreskin</Data>
         </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
             <Data name="BodyDown37Nuclear BodyBuilder" target="BodyDown37" local="true">Atomic Muscle Down 37.osd\BodyDown37Nuclear BodyBuilder</Data>

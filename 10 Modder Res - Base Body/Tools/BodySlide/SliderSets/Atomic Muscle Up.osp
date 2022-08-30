@@ -5,7 +5,7 @@
         <SourceFile>Atomic Muscle Up.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyUp</OutputFile>
-        <Shape target="BodyUp">BodyUp</Shape>
+        <Shape target="BodyUp" DataFolder="Atomic Muscle Up">BodyUp</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="BodyUpAnus Smooth" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpAnus Smooth</Data>
         </Slider>
@@ -20,9 +20,6 @@
         </Slider>
         <Slider name="Sack Size" invert="false" default="0">
             <Data name="BodyUpSack Size" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpSack Size</Data>
-        </Slider>
-        <Slider name="Foreskin" invert="false" default="0">
-            <Data name="BodyUpForeskin" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpForeskin</Data>
         </Slider>
         <Slider name="Penis Length" invert="false" default="0">
             <Data name="BodyUpPenis Length" target="BodyUp" local="true">Atomic Muscle Up.osd\BodyUpPenis Length</Data>
