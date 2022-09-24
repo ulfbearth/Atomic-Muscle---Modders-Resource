@@ -5,7 +5,7 @@
         <SourceFile>Atomic Muscle Flaccid.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyFlaccid</OutputFile>
-        <Shape target="BodyFlaccid">BodyFlaccid</Shape>
+        <Shape target="BodyFlaccid" DataFolder="Atomic Muscle Flaccid">BodyFlaccid</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="BodyFlaccidAnus Smooth" target="BodyFlaccid" local="true">Atomic Muscle Flaccid.osd\BodyFlaccidAnus Smooth</Data>
         </Slider>

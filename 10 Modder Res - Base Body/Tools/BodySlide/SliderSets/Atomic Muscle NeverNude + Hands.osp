@@ -12,14 +12,5 @@
         <Slider name="Nuka Bull" invert="false" default="0">
             <Data name="AMBodyNN+HandsNuka Bull" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsNuka Bull</Data>
         </Slider>
-        <Slider name="Anus Smooth" invert="false" default="0">
-            <Data name="AMBodyNN+HandsAnus Smooth" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsAnus Smooth</Data>
-        </Slider>
-        <Slider name="Anus Spread" invert="false" default="0">
-            <Data name="AMBodyNN+HandsAnus Spread" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsAnus Spread</Data>
-        </Slider>
-        <Slider name="Bulge" invert="false" default="0">
-            <Data name="AMBodyNN+HandsBulge" target="AMBodyNN+Hands" local="true">Atomic Muscle NeverNude + Hands.osd\AMBodyNN+HandsBulge</Data>
-        </Slider>
     </SliderSet>
 </SliderSetInfo>

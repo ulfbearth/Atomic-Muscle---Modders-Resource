@@ -3,7 +3,7 @@
     <SliderSet name="[AM DLC NW] Wrap &amp; Ragged Pants">
         <DataFolder>[AM DLC NW] Wrap &amp; Ragged Pants</DataFolder>
         <SourceFile>[AM DLC NW] Wrap &amp; Ragged Pants.nif</SourceFile>
-        <OutputPath>Meshes\DLC04\Armor\Disciples</OutputPath>
+        <OutputPath>Meshes\DLC04\Clothes\Disciples</OutputPath>
         <OutputFile GenWeights="false">DiscipleUnderArmorM_A</OutputFile>
         <Shape target="AMBodyNN" DataFolder="Atomic Muscle NeverNude">AMBodyNN</Shape>
         <Shape target="BootsD:0">BootsD:0</Shape>

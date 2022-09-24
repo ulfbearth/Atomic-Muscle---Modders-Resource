@@ -12,6 +12,9 @@
         <Slider name="Anus Spread" invert="false" default="0">
             <Data name="BodyErectAnus Spread" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectAnus Spread</Data>
         </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyErectForeskin" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectForeskin</Data>
+        </Slider>
         <Slider name="Nuclear BodyBuilder" invert="false" default="0">
             <Data name="BodyErectNuclear BodyBuilder" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectNuclear BodyBuilder</Data>
         </Slider>
@@ -21,11 +24,11 @@
         <Slider name="Penis Length" invert="false" default="0">
             <Data name="BodyErectPenis Length" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectPenis Length</Data>
         </Slider>
-        <Slider name="Shaft Width" invert="false" default="0">
-            <Data name="BodyErectShaft Width" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectShaft Width</Data>
-        </Slider>
         <Slider name="Sack Size" invert="false" default="0">
             <Data name="BodyErectSack Size" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectSack Size</Data>
+        </Slider>
+        <Slider name="Shaft Width" invert="false" default="0">
+            <Data name="BodyErectShaft Width" target="BodyErect" local="true">Atomic Muscle Erect.osd\BodyErectShaft Width</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

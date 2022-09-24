@@ -11,7 +11,19 @@
 	<Template sourcefile="SliderSets\Atomic Muscle NeverNude + Hands.osp" set="Atomic Muscle NeverNude + Hands" shape="AMBodyNN+Hands">Atomic Muscle NeverNude + Hands</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle NeverNude Full Reference.osp" set="Atomic Muscle NeverNude Full Reference" shape="AMFullReferenceNN">Atomic Muscle NeverNude Full Reference</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle Down.osp" set="Atomic Muscle Down" shape="BodyDown">Atomic Muscle Down</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Down 12.osp" set="Atomic Muscle Down 50" shape="BodyDown12">Atomic Muscle Down 12</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Down 25.osp" set="Atomic Muscle Down 50" shape="BodyDown25">Atomic Muscle Down 25</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Down 37.osp" set="Atomic Muscle Down 50" shape="BodyDown37">Atomic Muscle Down 37</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle Down 50.osp" set="Atomic Muscle Down 50" shape="BodyDown50">Atomic Muscle Down 50</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Down 62.osp" set="Atomic Muscle Down 50" shape="BodyDown62">Atomic Muscle Down 62</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Down 75.osp" set="Atomic Muscle Down 50" shape="BodyDown75">Atomic Muscle Down 75</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Down 87.osp" set="Atomic Muscle Down 50" shape="BodyDown87">Atomic Muscle Down 87</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle Up.osp" set="Atomic Muscle Up" shape="BodyUp">Atomic Muscle Up</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Up 12.osp" set="Atomic Muscle Up 12" shape="BodyUp12">Atomic Muscle Up 12</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Up 25.osp" set="Atomic Muscle Up 25" shape="BodyUp25">Atomic Muscle Up 25</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Up 37.osp" set="Atomic Muscle Up 37" shape="BodyUp37">Atomic Muscle Up 37</Template>
 	<Template sourcefile="SliderSets\Atomic Muscle Up 50.osp" set="Atomic Muscle Up 50" shape="BodyUp50">Atomic Muscle Up 50</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Up 62.osp" set="Atomic Muscle Up 62" shape="BodyUp62">Atomic Muscle Up 62</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Up 75.osp" set="Atomic Muscle Up 75" shape="BodyUp75">Atomic Muscle Up 75</Template>
+	<Template sourcefile="SliderSets\Atomic Muscle Up 87.osp" set="Atomic Muscle Up 87" shape="BodyUp87">Atomic Muscle Up 87</Template>
 </RefTemplates>

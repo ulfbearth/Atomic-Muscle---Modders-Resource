@@ -5,7 +5,7 @@
         <SourceFile>Atomic Muscle Down 25.nif</SourceFile>
         <OutputPath>meshes\actors\character\characterassets</OutputPath>
         <OutputFile GenWeights="false">MaleBodyDown25</OutputFile>
-        <Shape target="BodyDown25" DataFolder="Atomic Muscle Down 25">BodyDown25</Shape>
+        <Shape target="BodyDown25" DataFolder="Atomic Muscle Erect">BodyDown25</Shape>
         <Slider name="Anus Smooth" invert="false" default="0">
             <Data name="BodyDown25Anus Smooth" target="BodyDown25" local="true">Atomic Muscle Down 25.osd\BodyDown25Anus Smooth</Data>
         </Slider>
@@ -26,6 +26,9 @@
         </Slider>
         <Slider name="Sack Size" invert="false" default="0">
             <Data name="BodyDown25Sack Size" target="BodyDown25" local="true">Atomic Muscle Down 25.osd\BodyDown25Sack Size</Data>
+        </Slider>
+        <Slider name="Foreskin" invert="false" default="0">
+            <Data name="BodyDown25Foreskin" target="BodyDown25" local="true">Atomic Muscle Down 25.osd\BodyDown25Foreskin</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

@@ -3,7 +3,7 @@
     <SliderSet name="[AM DLC NW] Disciples Armored Skirt . Wrap &amp; Jeans">
         <DataFolder>[AM DLC NW] Disciples Armored Skirt . Wrap &amp; Jeans</DataFolder>
         <SourceFile>[AM DLC NW] Disciples Armored Skirt . Wrap &amp; Jeans.nif</SourceFile>
-        <OutputPath>Meshes\DLC04\Armor\Disciples</OutputPath>
+        <OutputPath>Meshes\DLC04\Clothes\Disciples</OutputPath>
         <OutputFile GenWeights="false">DiscipleUnderArmorM_C</OutputFile>
         <Shape target="AMBodyNN" DataFolder="Atomic Muscle NeverNude">AMBodyNN</Shape>
         <Shape target="BootsB:0">BootsB:0</Shape>
